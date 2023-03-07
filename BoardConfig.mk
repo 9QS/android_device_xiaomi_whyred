@@ -96,7 +96,7 @@ LOC_HIDL_VERSION := 4.0
 TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
-DEVICE_MATRIX_FILE += device/qcom/common/compatibility_matrix.xml
+DEVICE_MATRIX_FILE += device/qcom/vendor-common/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/framework_compatibility_matrix_manifest.xml
 
 # Init
